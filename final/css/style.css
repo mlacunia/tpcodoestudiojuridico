@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 40px 0;
     height: 500px;
-    background-image: url(img/fondo2.jpg);
+    background-image: url(../img/fondo2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom;
