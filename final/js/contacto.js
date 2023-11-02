@@ -13,6 +13,8 @@ function contarCaracteres() {
 // Agregar un evento 'input' al textarea para contar las palabras mientras se escribe
 textarea.addEventListener("keyup", contarCaracteres);
 
+
+
 //funcion limpiar campos boton limpiar form
 function limpiarCampos() {
   // Obtener el formulario por su ID
@@ -71,6 +73,9 @@ function validarYEnviarFormulario() {
 }
 formContacto.addEventListener("submit", validarYEnviarFormulario);
 
+
+
+/*
 // Obtener los valores actuales de los campos antes del envío del formulario
 var nombre = document.getElementById("inputNombre").value;
 var apellido = document.getElementById("inputApellido").value;
@@ -88,3 +93,4 @@ function rescuperarValoresFormulario() {
 }
 
 formContacto.addEventListener("reset", rescuperarValoresFormulario);
+*/
